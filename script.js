@@ -1,4 +1,5 @@
 function tampilkanPesan() {
-    document.getElementById("pesan").textContent =
-        "Berhasil! Kamu sedang belajar GitHub 🚀";
+    const pesan = document.getElementById("pesan");
+
+    pesan.textContent = "Berhasil! Perubahan terbaru sudah diterapkan 🚀";
 }
